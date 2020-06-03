@@ -20,7 +20,7 @@ html {
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top: 25%;
+    top: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -38,25 +38,6 @@ html {
     margin-bottom: 10px;
 }
 
-.info-text {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 120%;
-    line-height: 34px;
-}
-
-.info-text-2 {
-    position: absolute;
-    top: 59%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 120%;
-    line-height: 34px;
-}
 
 footer ul {
     position: absolute;
@@ -106,4 +87,64 @@ footer a:hover {
 .info-text-2 a:visited {
     color: white;
     transition: 0.2s;
+}
+
+input[type=email],
+select,
+textarea {
+    width: 35%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid #c6c6c6;
+}
+
+textarea {
+    position: absolute;
+    height: 650px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    resize: none;
+}
+
+::placeholder {
+  color: rgb(230, 230, 230);
+}
+
+input[type=email] {
+    text-align: center;
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+}
+
+textarea:focus {
+    outline: none;
+    border: 3px solid #c6c6c6;
+    
+}
+
+.submit-btn {
+    padding: 7px;
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    resize: none;
+    border-radius: 30px;
+    border: 2px solid #c6c6c6;
+    transition: 0.3s;
+}
+
+.submit-btn:hover,
+.submit-btn:active {
+    background-color: #fff;
+    color: #000;
 }
