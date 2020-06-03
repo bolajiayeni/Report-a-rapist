@@ -8,16 +8,43 @@
 html {
     background-color: #000;
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    height: 100vh;
+    border: 5px solid #fff;
 }
 
-h1 {
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text-box h1{
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    font-weight: 700;
-    text-transform: capitalize;
-    color: aqua;
+    font-weight: 500;
+    font-size: 400%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 10px;
 }
+
+.main-nav ul {
+    margin: 0 auto;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 10px;
+    
+    
+}
+
