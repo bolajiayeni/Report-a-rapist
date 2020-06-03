@@ -14,7 +14,7 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     height: 100vh;
-    border: 5px solid #fff;
+    border: 3px solid #fff;
 }
 
 .hero-text-box {
@@ -38,13 +38,81 @@ html {
 }
 
 .main-nav ul {
-    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .main-nav li {
     display: inline-block;
     margin-right: 10px;
-    
-    
 }
 
+.main-nav a {
+    color: white;
+    transition: 0.2s;
+}
+
+.main-nav a:hover {
+    font-size: 110%;
+}
+
+.btn {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.link-btn:link,
+.link-btn:visited {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.link-btn:hover,
+.link-btn:active {
+    color: #000;
+    background-color: white;
+}
+
+.info-text {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 120%;
+}
+
+footer ul {
+    position: absolute;
+    text-align: center;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 75%;
+    transition: 0.2s;
+}
+
+footer a:hover {
+    font-size: 100%;
+}
