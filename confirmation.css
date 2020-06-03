@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    height: 100vh;
+    border: 3px solid #fff;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text-box h1{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 250%;
+    text-transform: uppercase;
+    line-height: 70px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info-text {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 120%;
+}
+
+footer ul {
+    position: absolute;
+    text-align: center;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 75%;
+    transition: 0.2s;
+}
+
+footer a:hover {
+    font-size: 100%;
+}
+
+.home-link:link,
+.home-link:visited {
+    position: absolute;
+    color: #fff;
+    font-size: 80%;
+    text-decoration: none;
+    top: 30px;
+    left: 30px;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.home-link:hover,
+.home-link:active {
+    color: #000;
+    background-color: white;
+}
