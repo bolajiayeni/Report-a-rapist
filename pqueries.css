@@ -87,7 +87,7 @@ textarea {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     text-rendering: optimizeLegibility;
     height: 100vh;
     border: 3px solid #fff;
@@ -102,11 +102,11 @@ textarea {
     
 }
     ::placeholder {
-  font-size: 100%;
+  font-size: 150%;
 }
     textarea {
     position: absolute;
-    height: 650px;
+    height: 900px;
     top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -121,11 +121,11 @@ textarea {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-    .home-link:link,
+    home-link:link,
 .home-link:visited {
     position: absolute;
     color: #fff;
-    font-size: 100%;
+    font-size: 150%;
     text-decoration: none;
     top: 30px;
     left: 30px;
@@ -133,6 +133,12 @@ textarea {
     padding: 8px;
     border-radius: 50px;
     transition: 0.3s;
+}
+    footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    transition: 0.2s;
 }
 }
 
