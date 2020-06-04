@@ -1,3 +1,13 @@
+@media only screen and (max-width: 1440px) {
+    .info-text {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 120%;
+}
+}
 @media only screen and (max-width: 1336px) {
     .info-text {
     position: absolute;
@@ -6,6 +16,7 @@
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 120%;
+}
 }
 
 @media only screen and (max-width: 1180px) {
@@ -39,8 +50,10 @@
     text-align: center;
     top: 46%;
     left: 50%;
-    transform: translate(-50%, -50%);
-}@media only screen and (max-width: 1080px) {
+        transform: translate(-50%, -50%);}
+    
+}
+@media only screen and (max-width: 1080px) {
     .hero-text-box {
     position: absolute;
     width: 100%;
@@ -106,11 +119,6 @@
 }
 
 
-/*Small phones to small tablets*/
-
-
-
-
 
 @media only screen and (max-width: 666px) {
     html {
@@ -140,7 +148,8 @@
     transform: translate(-50%, -50%);
 }
 
-}@media only screen and (max-width: 580px) {
+}
+@media only screen and (max-width: 580px) {
     html {
     background-color: #000;
     color: #fff;
@@ -198,5 +207,79 @@
     top: 46%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+}
+@media only screen and (max-width: 375px) {
+    html {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    text-rendering: optimizeLegibility;
+    height: 100vh;
+    border: 3px solid #fff;
+}
+
+    .hero-text-box {
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    .main-nav ul {
+    width: 80%;
+    position: absolute;
+    text-align: center;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+@media only screen and (max-width: 320px) {
+    html {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    text-rendering: optimizeLegibility;
+    height: 100vh;
+    border: 3px solid #fff;
+}
+
+    .hero-text-box {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    .main-nav ul {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+        
+.link-btn:link,
+.link-btn:visited {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 50px;
+    transition: 0.3s;
 }
 }
