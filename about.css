@@ -19,7 +19,7 @@ html {
 
 .hero-text-box {
     position: absolute;
-    width: 1140px;
+    width: 95%;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
