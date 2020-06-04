@@ -103,6 +103,61 @@ textarea {
     transition: 0.3s;
 }
 }
+@media only screen and (max-width: 1033px) {
+   html {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    height: 100vh;
+    border: 3px solid #fff;
+}
+    input[type=email],
+select,
+textarea {
+    width: 45%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid #c6c6c6;
+    
+}
+    ::placeholder {
+  font-size: 120%;
+}
+    textarea {
+    position: absolute;
+    height: 500px;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    resize: none;
+}
+    .hero-text-box {
+    position: absolute;
+    width: 100%;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    .home-link:link,
+.home-link:visited {
+    position: absolute;
+    color: #fff;
+    font-size: 100%;
+    text-decoration: none;
+    top: 30px;
+    left: 30px;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+}
 @media only screen and (max-width: 1024px) {
     .hero-text-box {
     position: absolute;
