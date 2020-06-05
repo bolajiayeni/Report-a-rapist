@@ -358,7 +358,7 @@ textarea {
     .hero-text-box {
     position: absolute;
     width: 100%;
-    top: 16%;
+    top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -387,8 +387,8 @@ textarea {
 }
     textarea {
     position: absolute;
-    height: 500px;
-    top: 50%;
+    height: 450px;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #000;
