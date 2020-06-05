@@ -2,6 +2,16 @@
    ::placeholder {
   font-size: 80%;
 }
+    textarea {
+    position: absolute;
+    height: 600px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    resize: none;
+}
 }
 @media (max-width: 1440px) {
    textarea {
@@ -74,8 +84,8 @@ textarea {
 }
     textarea {
     position: absolute;
-    height: 650px;
-    top: 49%;
+    height: 600px;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #000;
@@ -85,7 +95,7 @@ textarea {
     .hero-text-box {
     position: absolute;
     width: 100%;
-    top: 14%;
+    top: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -172,15 +182,15 @@ textarea {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     text-rendering: optimizeLegibility;
     height: 100vh;
     border: 3px solid #fff;
 }
     textarea {
     position: absolute;
-    height: 650px;
-    top: 49%;
+    height: 500px;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #000;
@@ -190,7 +200,7 @@ textarea {
     input[type=email],
 select,
 textarea {
-    width: 55%;
+    width: 50%;
     padding: 7px;
     border-radius: 5px;
     border: 2px solid #c6c6c6;
@@ -213,6 +223,18 @@ textarea {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+    .hero-text-box h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 170%;
+    text-transform: uppercase;
+    line-height: 35px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+}
     html {
     background-color: #000;
     color: #fff;
@@ -226,7 +248,7 @@ textarea {
 }
     textarea {
     position: absolute;
-    height: 550px;
+    height: 500px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -245,7 +267,7 @@ textarea {
     input[type=email] {
     text-align: center;
     position: absolute;
-    top: 80%;
+    top: 83%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #000;
@@ -257,7 +279,7 @@ textarea {
     .submit-btn {
     padding: 7px;
     position: absolute;
-    top: 87%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #000;
