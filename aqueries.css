@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1440px) {
+@media (max-width: 1440px) {
     .hero-text-box {
     position: absolute;
     width: 95%;
@@ -8,10 +8,10 @@
 }
 
 }
-@media only screen and (max-width: 1280px) {
+@media (max-width: 1280px) {
 
 }
-@media only screen and (max-width: 1080px) {
+@media (max-width: 1080px) {
 html {
     background-color: #000;
     color: #fff;
@@ -24,10 +24,10 @@ html {
     border: 3px solid #fff;
 }
 }
-@media only screen and (max-width: 960px) {
+@media (max-width: 960px) {
 
 }
-@media only screen and (max-width: 780px) {
+@media (max-width: 780px) {
     .info-text {
     position: absolute;
     top: 50%;
@@ -38,7 +38,7 @@ html {
     line-height: 50px;
 }
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
    .info-text {
     position: absolute;
     top: 46%;
@@ -89,10 +89,10 @@ html {
 }
 
 }
-@media only screen and (max-width: 640px) {
+@media (max-width: 640px) {
 
 }
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
     html {
     background-color: #000;
     color: #fff;
@@ -104,7 +104,7 @@ html {
     height: 100vh;
     border: 3px solid #fff;
     }}
-@media only screen and (max-width: 414px) {
+@media (max-width: 414px) {
     .info-text {
     position: absolute;
     top: 55%;
@@ -155,7 +155,7 @@ html {
     transition: 0.3s;
 }
 }
-@media only screen and (max-width: 375px) {
+@media (max-width: 375px) {
     .info-text {
     position: absolute;
     top: 55%;
@@ -206,7 +206,7 @@ html {
     transition: 0.3s;
 }
 }
-@media only screen and (max-width: 360px) {
+@media (max-width: 360px) {
     .info-text {
     position: absolute;
     top: 55%;
@@ -257,7 +257,7 @@ html {
     transition: 0.3s;
 }
 }
-@media only screen and (max-width: 320px) {
+@media (max-width: 320px) {
     .info-text {
     position: absolute;
     top: 55%;
