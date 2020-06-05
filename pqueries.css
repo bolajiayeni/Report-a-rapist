@@ -215,6 +215,145 @@ textarea {
     color: #fff;
 }
 }
+@media (max-width: 966px) {
+    .hero-text-box {
+    position: absolute;
+    width: 100%;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    html {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    height: 100vh;
+    border: 3px solid #fff;
+}
+    textarea {
+    position: absolute;
+    height: 500px;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    resize: none;
+}
+    input[type=email],
+select,
+textarea {
+    width: 50%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid #c6c6c6;
+}
+    input[type=email] {
+    text-align: center;
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+}
+    .submit-btn {
+    padding: 7px;
+    position: absolute;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    resize: none;
+    border-radius: 30px;
+    border: 2px solid #c6c6c6;
+    transition: 0.3s;
+}
+    input[type=email]::placeholder {
+  font-size: 75%;
+}
+}
+@media (max-width: 860px) {
+    .hero-text-box {
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    html {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    height: 100vh;
+    border: 3px solid #fff;
+}
+    textarea {
+    position: absolute;
+    height: 480px;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    resize: none;
+}
+    input[type=email],
+select,
+textarea {
+    width: 50%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid #c6c6c6;
+}
+    input[type=email] {
+    text-align: center;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+}
+    .submit-btn {
+    padding: 7px;
+    position: absolute;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    resize: none;
+    border-radius: 30px;
+    border: 2px solid #c6c6c6;
+    transition: 0.3s;
+}
+    input[type=email]::placeholder {
+  font-size: 75%;
+}
+    .home-link:link,
+.home-link:visited {
+    position: absolute;
+    color: #fff;
+    font-size: 70%;
+    text-decoration: none;
+    top: 20px;
+    left: 20px;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+}
 @media (max-width: 768px) {
     .hero-text-box {
     position: absolute;
@@ -289,6 +428,7 @@ textarea {
     border: 2px solid #c6c6c6;
     transition: 0.3s;
 }
+    
 }
 @media (max-width: 414px) {
     .hero-text-box {
