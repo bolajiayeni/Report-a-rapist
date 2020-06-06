@@ -115,6 +115,7 @@ input[type=email] {
     color: #fff;
     border-radius: 2rem;
     border: 2px solid #c6c6c6;
+    outline: none;
     transition: 0.3s;
 }
 
