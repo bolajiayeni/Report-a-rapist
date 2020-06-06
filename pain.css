@@ -118,6 +118,16 @@ input[type=email] {
     transition: 0.3s;
 }
 
+.submit-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.submit-btn:active {
+    background-color: transparent;
+    color: transparent;
+    outline: none;
+}
 
 
 .heel {
